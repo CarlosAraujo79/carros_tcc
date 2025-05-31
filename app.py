@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import torch
-from utils import detect_plate_and_text
+from plate_utils import detect_plate_and_text
 import tempfile
 
 st.title("Detector de Placas de Carro")
