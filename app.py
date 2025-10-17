@@ -9,7 +9,7 @@ uploaded_file = st.file_uploader("Envie uma imagem com uma placa de carro", type
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file).convert("RGB")
-    st.image(image, caption="📸 Imagem enviada", use_column_width=True)
+    st.image(image, caption="📸 Imagem enviada", use_container_width =True)
 
     with st.spinner("Detectando placa e texto..."):
         # Salvar imagem temporariamente
