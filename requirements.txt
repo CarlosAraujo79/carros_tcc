@@ -5,4 +5,4 @@ pillow
 numpy
 opencv-python-headless
 pytesseract
-ultralytics
+ultralytics>=8.0.0
